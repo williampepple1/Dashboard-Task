@@ -1,5 +1,7 @@
 import React from "react";
 import "./Overview.css";
+import graphgreen from "../img/graphgreen.png"
+import graphred from "../img/graphred.png"
 
 const Overview = () => {
   return (
@@ -11,7 +13,7 @@ const Overview = () => {
             <p className="total__text">Total Orders</p>
             <p className="total__cost">$342.70</p>
           </article>
-          <img src="" alt="Total graph" />
+          <img src={graphgreen} alt="Total graph" className="graph" />
         </div>
         <div className="overview__second">
           <p className="total__items">17 Total items</p>
@@ -24,7 +26,7 @@ const Overview = () => {
             <p className="total__text">Total Orders</p>
             <p className="total__cost">$127.40</p>
           </article>
-          <img src="" alt="Total graph" />
+          <img src={graphred} alt="Total graph" className="graph"/>
         </div>
         <div className="overview__second">
           <p className="total__items">8 Total items</p>

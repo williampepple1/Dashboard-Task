@@ -16,3 +16,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.graph{
+  width: 100px;
+  height: 40px;
+}
