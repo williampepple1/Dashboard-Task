@@ -1,6 +1,7 @@
 import React from "react";
 import "./Latest.css";
 import headphones from "../img/headphones.jpg";
+import Iphone from "../img/Iphone.png"; 
 
 const Latest = () => {
   return (
@@ -16,7 +17,7 @@ const Latest = () => {
           <p className="latest__cost">-$ 160</p>
         </section>
         <section className="latest-item">
-          <img src="" alt="IPhone 11 Pro" className="lastest__img" />
+          <img src={Iphone} alt="IPhone 11 Pro" className="lastest__img" />
           <article className="latest__details">
             <p className="latest__text">IPhone 11 Pro</p>
             <p className="latest__date">Feb 16, 2021</p>
