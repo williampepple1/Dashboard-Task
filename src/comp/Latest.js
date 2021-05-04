@@ -1,5 +1,6 @@
 import React from "react";
 import "./Latest.css";
+import headphones from "../img/headphones.jpg";
 
 const Latest = () => {
   return (
@@ -7,7 +8,7 @@ const Latest = () => {
       <h2 className="section__title">Latest Activities</h2>
       <div className="latest-card">
         <section className="latest-item">
-          <img src="" alt="HeadPhones" className="lastest__img" />
+          <img src={headphones} alt="HeadPhones" className="lastest__img" />
           <article className="latest__details">
             <p className="latest__text">Sony 1000Xm3</p>
             <p className="latest__date">Sep 12, 2021</p>
