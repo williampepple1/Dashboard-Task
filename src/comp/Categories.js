@@ -48,7 +48,7 @@ const category = (text) => {
   
   return (
     <div className="category" key={text}>
-      <img src={cat} alt={text + " image"} className="category__image" />
+      <img src={flame} alt={text + " image"} className="category__image" />
       <p className="category__text">{text}</p>
     </div>
   );
