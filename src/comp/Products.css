@@ -1,0 +1,20 @@
+.products {
+  margin-top: 5px;
+}
+.products-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.product-nav {
+  font-size: 16px;
+}
+.product-table {
+  width: 95%;
+  font-size: 14px;
+  border-spacing: 0;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(213, 245, 253);
+}

@@ -1,0 +1,23 @@
+.App {
+  text-align: left;
+  font-size: 14px;
+  display: flex;
+}
+.section__title {
+  text-align: left;
+  margin: 5px 0;
+  font-size: 16px;
+}
+.second-column,
+.third-column {
+  padding: 1% 2%;
+}
+.statistics-profits {
+  display: flex;
+}
+.second-column {
+  min-width: 70%;
+}
+.third-column {
+  min-width: 20%;
+}

@@ -1,0 +1,43 @@
+.profitable-items {
+  width: 45%;
+  padding-right: 5%;
+}
+.profit__item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 0;
+  width: 100%;
+}
+.profit__item p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.item__num {
+  background-color: rgb(240, 233, 233);
+  padding: 5px;
+  border-radius: 10px;
+  width: 7.5%;
+  text-align: center;
+}
+.item__name {
+  text-align: left;
+  margin-left: 40px;
+  width: 60%;
+}
+.item__gain {
+  text-align: center;
+  width: 20%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(202, 245, 202);
+}
+.see-more-btn {
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0;
+  color: blue;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: rgb(238, 236, 228);
+}

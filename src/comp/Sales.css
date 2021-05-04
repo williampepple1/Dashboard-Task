@@ -1,0 +1,18 @@
+.sales-item {
+  display: flex;
+  border: 1px solid rgb(213, 245, 253);
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.sales__img {
+  width: 10%;
+}
+.sales__details {
+  width: 70%;
+}
+.sales__details p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

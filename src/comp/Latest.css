@@ -1,0 +1,13 @@
+.latest-card {
+  border: 1px solid rgb(213, 245, 253);
+  padding: 10px;
+  border-radius: 5px;
+}
+.latest-item {
+  display: flex;
+  justify-content: space-between;
+}
+.latest__details p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

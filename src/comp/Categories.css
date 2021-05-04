@@ -1,0 +1,26 @@
+.categories__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70px;
+}
+
+.category__image {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(212, 250, 252);
+  margin: 0 auto;
+}
+.category__text {
+  text-align: center;
+  font-size: 14px;
+}
