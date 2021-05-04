@@ -39,12 +39,13 @@ const imageFile = [
   dart,
   Iphone,
   baby_feeder,
-  flower, 
+  flower
 
 ]
 
 
 const category = (text) => {
+  
   return (
     <div className="category" key={text}>
       <img src={cat} alt={text + " image"} className="category__image" />
