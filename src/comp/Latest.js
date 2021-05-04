@@ -14,7 +14,7 @@ const Latest = () => {
             <p className="latest__text">Sony 1000Xm3</p>
             <p className="latest__date">Sep 12, 2021</p>
           </article>
-          <p className="latest__cost">-$ 160</p>
+          <p className="latest__cost loss">-$ 160</p>
         </section>
         <section className="latest-item">
           <img src={Iphone} alt="IPhone 11 Pro" className="lastest__img" />
@@ -22,7 +22,7 @@ const Latest = () => {
             <p className="latest__text">IPhone 11 Pro</p>
             <p className="latest__date">Feb 16, 2021</p>
           </article>
-          <p className="latest__cost">+$ 160</p>
+          <p className="latest__cost gain">+$ 160</p>
         </section>
         <button className="see-more-btn">See All Activities</button>
       </div>

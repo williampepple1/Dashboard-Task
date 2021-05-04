@@ -16,3 +16,13 @@
   width: 25px;
   height: 25px;
 }
+
+.loss{
+  color: red !important;
+  background-color: white !important;
+}
+
+.gain{
+  color: rgb(28, 223, 116) !important;
+  background-color: white !important;
+}

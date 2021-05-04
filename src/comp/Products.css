@@ -2,6 +2,7 @@
   margin-top: 35px;
 }
 .products-nav {
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -17,4 +18,8 @@
 td {
   padding: 10px;
   border-bottom: 1px solid rgb(213, 245, 253);
+}
+
+.marg{
+margin-left: 15px !important;
 }

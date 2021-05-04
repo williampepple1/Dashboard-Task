@@ -11,12 +11,12 @@ const Products = () => {
       </nav>
       <section className="product-list">
         <table className="product-table">
-          <thead className="product-head">
+          <thead className="product-head" >
             <tr>
-              <th scope="column">Product's Name</th>
-              <th scope="column">Variant</th>
-              <th scope="column">Stock</th>
-              <th scope="column">Price</th>
+              <th scope="column" >Product's Name</th>
+              <th scope="column" >Variant</th>
+              <th scope="column" >Stock</th>
+              <th scope="column" >Price</th>
               <th scope="column">Status</th>
             </tr>
           </thead>

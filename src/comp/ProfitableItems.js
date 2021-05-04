@@ -14,7 +14,7 @@ const ProfitableItems = () => {
         <article className="profit__item">
           <p className="item__num">2</p>
           <p className="item__name">Electronics</p>
-          <p className="item__gain">-$12</p>
+          <p className="item__gain loss">-$12</p>
         </article>
         <article className="profit__item">
           <p className="item__num">3</p>
