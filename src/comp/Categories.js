@@ -14,48 +14,22 @@ import flower from "../img/Icon/flower.svg"
 
 import "../comp/Categories.css";
 
-const categoryText = [
-  "Newest",
-  "Promos",
-  "Fruits",
-  "Herbs",
-  "Beverages",
-  "Music",
-  "Bakery",
-  "Toys",
-  "Electronics",
-  "Baby",
-  "Plants",
-];
-
-const imageFile = [
-  avocado,
-  money,
-  flame,
-  medicine,
-  cocktail,
-  violin,
-  cookie,
-  dart,
-  Iphone,
-  baby_feeder,
-  flower
-
-]
+const categoryDetails =[["Newest", flame], ["Promos", money],["Fruits",avocado], ["Herbs", medicine],["Beverages", cocktail],["Music", violin],["Bakery", cookie],["Toys", dart],["Electronics", Iphone],["Baby", baby_feeder], ["Plants",flower] ] ;
 
 
-const category = (text) => {
-  
+const category = (item) => {
+  let text = item[0];
+  let img_src= item[1];
   return (
     <div className="category" key={text}>
-      <img src={flame} alt={text + " image"} className="category__image" />
+      <img src={img_src} alt={text + " image"} className="category__image" />
       <p className="category__text">{text}</p>
     </div>
   );
 };
 
 const Categories = () => {
-  let categoryList = categoryText.map((item) => category(item));
+  let categoryList = categoryDetails.map((item) => category(item));
   return (
     <div className="categories">
       <h2 className="section__title">Categories</h2>
