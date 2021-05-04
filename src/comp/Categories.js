@@ -1,5 +1,17 @@
 import React from "react";
 import cat from "../img/myoctocat.png";
+import avocado from "../img/Icon/avocado.svg"
+import money from "../img/Icon/money.svg"
+import flame from "../img/Icon/flame.svg"
+import medicine from "../img/Icon/medicine.svg"
+import cocktail from "../img/Icon/cocktail.png"
+import violin from "../img/Icon/violin.svg"
+import cookie from "../img/Icon/cookie.svg"
+import dart from "../img/Icon/dart.png"
+import Iphone from "../img/Iphone.png"
+import baby_feeder from "../img/Icon/baby_feeder.svg"
+import flower from "../img/Icon/flower.svg"
+
 import "../comp/Categories.css";
 
 const categoryText = [
@@ -15,6 +27,22 @@ const categoryText = [
   "Baby",
   "Plants",
 ];
+
+const imageFile = [
+  avocado,
+  money,
+  flame,
+  medicine,
+  cocktail,
+  violin,
+  cookie,
+  dart,
+  Iphone,
+  baby_feeder,
+  flower, 
+
+]
+
 
 const category = (text) => {
   return (
