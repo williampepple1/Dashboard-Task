@@ -1,5 +1,4 @@
 import React from "react";
-import cat from "../img/myoctocat.png";
 import avocado from "../img/Icon/avocado.svg"
 import money from "../img/Icon/money.svg"
 import flame from "../img/Icon/flame.svg"
